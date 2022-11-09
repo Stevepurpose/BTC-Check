@@ -21,11 +21,11 @@ var respObj=await fetch("https://api.coindesk.com/v1/bpi/currentprice.json")
     setInterval(()=>{
       h2.classList.remove("highlight")
       dollar.classList.remove("highlight")
-    },2000)
+    },3000)
 
     setInterval(()=>{
       euro.classList.remove("highlight")
-    },2000)
+    },5000)
   
     dollar.innerHTML=`
                    
