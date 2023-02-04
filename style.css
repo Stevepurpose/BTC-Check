@@ -1,6 +1,11 @@
 body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
     background-color:black;
     color:yellow;
+    
     
 }
 
@@ -10,27 +15,33 @@ body {
 
 
 header{
-    position:relative;
-    left: 400px;
+    
+    text-align: center;
+   
 }
 
 h3{
     position: relative;
-    right: 200px;
+    right: 10px;
 }
 
 footer{
-    
-    margin-top:100px;
+    border: 1px solid yellow;
+   /* margin-top:100px;
     position: relative;
-    left: 160px;
+    left: 160px;*/
     font-size: 20px;
+    margin: auto;
+    text-align: center;
+    width: 80%;
 }
 img{
     width: 400px;
     height:400px;
-    position: relative;
-    left: 400px;
+   position: relative;
+    left: 450px;
+    
+    border: 1px solid green;
 }
 
 
@@ -41,16 +52,14 @@ main{
 
 #dollar ,#stirling,#euro{
 
-    position: relative;
-    left: 520px;
+    text-align: center;
+    border: 1px solid yellow;
+    width: 80%;
+    margin: auto;
     
 }
 
-#discl{
 
-    position: relative;
-    left: 380px;
-}
 
 
 @keyframes crypt {
@@ -67,33 +76,34 @@ body{
     body{
         font-size: 7px;
     }
+   
     header{
-        position: relative;
+        
         font-size: 10px;
-        left: 24px;
+    
+        margin: auto;
     }
 
     h3{
         font-size: 14px;
-        position: relative;
-        left: 20px;
+        
         margin-top: 20px;
+        
     }
-    h1{
-        position: relative;
-        left: 20px;
-    }
+    
 
 h2{
     font-size: 14px;
-    position: relative;
-    left: 20px;
+    
+    
 }
 
 footer{
-    position: relative;
-    left: 18px;
+   /* position: relative;
+    left: 10px;*/
     font-size: 14px;
+    text-align: center;
+    margin: auto;
 }
 
 
@@ -102,23 +112,25 @@ footer{
         width: 170px;
         height: 170px;
         position: relative;
-        left: 100px;
+        left: 120px;
+        margin-bottom: 13px;
     }
 
 
     #dollar,#stirling,#euro{
         font-size: 15px;
-        position: relative;
-        left: 110px;
+        margin: auto;
+      /*  position: relative;
+        left: 10px;*/
         
     }
 
-
+/*
     #discl{
         font-size: 15px;
         position: relative;
-        left: 110px;
-    }
+        left: 10px;
+    }*/
 
     #forimage{
         margin-top: 30px;

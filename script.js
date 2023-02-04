@@ -28,24 +28,18 @@ var respObj=await fetch("https://api.coindesk.com/v1/bpi/currentprice.json")
     },2000)
   
     dollar.innerHTML=`
-                   
-    
     <p>BTC/USD :${json.bpi.USD.rate}</p>
-
-    
-    
        `
+      
        stirling.innerHTML=`
-       
        <p>BTC/GBP :${json.bpi.GBP.rate}</p>
-       
        `
+      
        euro.innerHTML=`
-       
        <p>BTC/EUR :${json.bpi.EUR.rate}</p>
        `
        footer.innerHTML=`
-           <p id="discl">   Disclaimer: </P>
+           <p id="discl"> Disclaimer: </P>
        <p>${json.disclaimer}</p>
           `
         }    
