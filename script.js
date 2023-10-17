@@ -1,15 +1,14 @@
-var div=document.querySelector("#dollar")   
-  var p=document.querySelector("p")   
-  var stirling=document.getElementById("stirling")
-  var footer=document.querySelector("footer")
-  var h2=document.querySelector("h2")
-  var euro=document.getElementById("euro")
+let div=document.querySelector("#dollar")   
+let p=document.querySelector("p")   
+let stirling=document.getElementById("stirling")
+let footer=document.querySelector("footer")
+let euro=document.getElementById("euro")
   setInterval(()=>{
     async function getPrice(){
-var respObj=await fetch("https://api.coindesk.com/v1/bpi/currentprice.json")    
-    var json=await respObj.json()  
+let respObj=await fetch("https://api.coindesk.com/v1/bpi/currentprice.json")    
+let json=await respObj.json()  
  
-    h2.classList.add("highlight")
+   
     dollar.classList.add("highlight")
     euro.classList.add("highlight")
     stirling.classList.add("highlight")
